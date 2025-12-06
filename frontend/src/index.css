@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-gradient-to-br from-indigo-900 via-purple-900 to-black text-white;
+}
+
+.sidebar {
+  background: linear-gradient(180deg, #1e3a8a, #312e81);
+}
+
+.sidebar-btn {
+  background: #1f2933;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.2s ease;
+}
+
+.sidebar-btn:hover {
+  background: #4f46e5;
+  transform: scale(1.02);
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,.08);
+}
+
+.btn-main {
+  background: linear-gradient(135deg, #4f46e5, #2563eb);
+  color: white;
+  border-radius: 999px;
+  padding: 12px 24px;
+  transition: 0.2s ease;
+}
+
+.btn-main:hover {
+  background: linear-gradient(135deg, #6366f1, #3b82f6);
+}
